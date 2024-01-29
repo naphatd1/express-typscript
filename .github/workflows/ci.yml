@@ -6,16 +6,10 @@ on:
       - main
   pull_request:
     types:
-<<<<<<< HEAD
-        - opened
-    branches:
-      - "*feature"
-=======
       - opened
     branches:
       - "*feature"
 
->>>>>>> main
 jobs:
   build-job:
     runs-on: ubuntu-latest
