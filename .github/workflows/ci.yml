@@ -6,9 +6,10 @@ on:
       - main
   pull_request:
     types:
-        - opened
+      - opened
     branches:
       - "*feature"
+
 jobs:
   build-job:
     runs-on: ubuntu-latest
